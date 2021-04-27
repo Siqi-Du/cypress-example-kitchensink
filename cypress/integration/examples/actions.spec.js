@@ -3,6 +3,8 @@
 context('Actions', () => {
   beforeEach(() => {
     cy.visit('http://localhost:8080/commands/actions')
+    // cy.visit('https://example.cypress.io/commands/actions')
+    // "specs": ["cypress/integration/examples/actions.spec.js", "cypress/integration/examples/cookies.spec.js", "cypress/integration/examples/traversal.spec.js" ]
   })
 
   // https://on.cypress.io/interacting-with-elements
